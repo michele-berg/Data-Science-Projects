@@ -14,9 +14,15 @@
     h1, h2 {
       color: #cc5500;
     }
+    .project-table-container {
+      overflow-x: auto;
+      width: fit-content;
+      max-width: 100%;
+    }
     table {
       border-collapse: collapse;
       margin-top: 20px;
+      width: auto;
     }
     table th, table td {
       padding: 12px;
@@ -82,33 +88,35 @@
   </div>
 
   <h2>Projects</h2>
-  <table>
-    <tr>
-      <th style="width: 1%; white-space: nowrap;">Project</th>
-      <th style="width: 1%; white-space: nowrap;">Description</th>
-      <th style="width: 1%; white-space: nowrap;">View</th>
-    </tr>
-    <tr>
-      <td>📦 <b>FoodHub</b></td>
-      <td>EDA and prediction for a food delivery platform</td>
-      <td><a href="https://htmlpreview.github.io/?https://github.com/michele-berg/Data-Science-Projects/blob/main/FoodHubProject/Foodhub_Full_Code_Berg.html">View Project</a></td>
-    </tr>
-    <tr>
-      <td>📰 <b>E-News Express</b></td>
-      <td>Subscriber prediction using ML classification</td>
-      <td><a href="https://htmlpreview.github.io/?https://github.com/michele-berg/Data-Science-Projects/blob/main/ENewsProject/ENews_Express_Learner_Notebook_Full_Code.html">View Project</a></td>
-    </tr>
-    <tr>
-      <td>🔋 <b>ReCell</b></td>
-      <td>Resale pricing prediction using Linear Regression</td>
-      <td><a href="https://htmlpreview.github.io/?https://github.com/michele-berg/Data-Science-Projects/blob/main/ReCellProject/SLF_Project_LearnerNotebook_FullCode.html">View Project</a></td>
-    </tr>
-    <tr>
-      <td>🏨 <b>Inn Hotels</b></td>
-      <td>Booking cancellation prediction using Logistic Regression and Decision Trees</td>
-      <td><a href="https://htmlpreview.github.io/?https://github.com/michele-berg/Data-Science-Projects/blob/main/InnHotelsProject/Project_SLC_DSBA_INNHotels_FullCode.html">View Project</a></td>
-    </tr>
-  </table>
+  <div class="project-table-container">
+    <table>
+      <tr>
+        <th>Project</th>
+        <th>Description</th>
+        <th>View</th>
+      </tr>
+      <tr>
+        <td>📦 <b>FoodHub</b></td>
+        <td>EDA and prediction for a food delivery platform</td>
+        <td><a href="https://htmlpreview.github.io/?https://github.com/michele-berg/Data-Science-Projects/blob/main/FoodHubProject/Foodhub_Full_Code_Berg.html">View Project</a></td>
+      </tr>
+      <tr>
+        <td>📰 <b>E-News Express</b></td>
+        <td>Subscriber prediction using ML classification</td>
+        <td><a href="https://htmlpreview.github.io/?https://github.com/michele-berg/Data-Science-Projects/blob/main/ENewsProject/ENews_Express_Learner_Notebook_Full_Code.html">View Project</a></td>
+      </tr>
+      <tr>
+        <td>🔋 <b>ReCell</b></td>
+        <td>Resale pricing prediction using Linear Regression</td>
+        <td><a href="https://htmlpreview.github.io/?https://github.com/michele-berg/Data-Science-Projects/blob/main/ReCellProject/SLF_Project_LearnerNotebook_FullCode.html">View Project</a></td>
+      </tr>
+      <tr>
+        <td>🏨 <b>Inn Hotels</b></td>
+        <td>Booking cancellation prediction using Logistic Regression and Decision Trees</td>
+        <td><a href="https://htmlpreview.github.io/?https://github.com/michele-berg/Data-Science-Projects/blob/main/InnHotelsProject/Project_SLC_DSBA_INNHotels_FullCode.html">View Project</a></td>
+      </tr>
+    </table>
+  </div>
 
   <h2>Skills & Tools</h2>
   <ul>
