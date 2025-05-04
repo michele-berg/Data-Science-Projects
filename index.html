@@ -38,10 +38,15 @@
     }
     .academic-section {
       display: flex;
-      justify-content: space-between;
+      justify-content: flex-start;
       align-items: flex-start;
       gap: 20px;
       margin-top: 40px;
+    }
+    .academic-logo {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
     }
     .academic-text {
       flex: 1;
@@ -49,6 +54,7 @@
     }
     .logo-img {
       width: 100px;
+      margin-top: 10px;
     }
   </style>
 </head>
@@ -61,8 +67,11 @@
   <p>I'm Michele Berg, a data scientist and software development manager passionate about turning data into actionable insights. This repository highlights projects across machine learning, NLP, and EDA.</p>
 
   <div class="academic-section">
-    <div class="academic-text">
+    <div class="academic-logo">
       <h2>Academic Background</h2>
+      <img src="https://raw.githubusercontent.com/michele-berg/Data-Science-Projects/main/University_of_Texas_at_Austin_seal.svg.png" alt="UT Austin Logo" class="logo-img" />
+    </div>
+    <div class="academic-text">
       <p>
         These projects were completed as part of my
         <b><a href="https://www.mccombs.utexas.edu/execed/for-individuals/certificates/great-learning/#DSBA">
@@ -70,7 +79,6 @@
         <b><a href="https://www.mccombs.utexas.edu/">University of Texas at Austin – McCombs School of Business</a></b>.
       </p>
     </div>
-    <img src="https://raw.githubusercontent.com/michele-berg/Data-Science-Projects/main/University_of_Texas_at_Austin_seal.svg.png" alt="UT Austin Logo" class="logo-img" />
   </div>
 
   <h2>Projects</h2>
@@ -118,4 +126,3 @@
 
 </body>
 </html>
-
