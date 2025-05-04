@@ -2,7 +2,7 @@
 Welcome! This portfolio showcases end-to-end data science projects focused on real-world applications.
 
 ## About Me
-I'm Michele Berg, a data scientist passionate about turning data into actionable insights. This repository highlights projects across machine learning, NLP, and EDA.
+I'm Michele Berg, a data scientist and software development manager passionate about turning data into actionable insights. This repository highlights projects across machine learning, NLP, and EDA.
 
 <p align="left" style="display: flex; justify-content: space-between; align-items: flex-start; gap: 20px;">
 
