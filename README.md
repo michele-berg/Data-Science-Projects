@@ -11,7 +11,8 @@ I'm Michele Berg, a data scientist passionate about turning data into actionable
   <h2>Academic Background</h2>
 
   These projects were completed as part of my 
-  <b><a href="https://www.mccombs.utexas.edu/execed/for-individuals/certificates/great-learning/#DSBA">Post-Graduate Certificate - Data Science and Business Analytics</a></b> from the <b><a href="https://www.mccombs.utexas.edu/">University of Texas at Austin – McCombs School of Business</a></b>.
+  <b><a href="https://www.mccombs.utexas.edu/execed/for-individuals/certificates/great-learning/#DSBA">Post-Graduate Certificate - Data Science and Business Analytics</a></b> from the 
+  <br/><b><a href="https://www.mccombs.utexas.edu/">University of Texas at Austin – McCombs School of Business</a></b>.
 
   </span>
 
