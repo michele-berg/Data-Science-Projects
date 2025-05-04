@@ -15,7 +15,7 @@ I'm Michele Berg, a data scientist passionate about turning data into actionable
   <br/><b><a href="https://www.mccombs.utexas.edu/">University of Texas at Austin – McCombs School of Business</a></b>.
 
   </span>
-
+<br/>
   <img src="https://raw.githubusercontent.com/michele-berg/Data-Science-Projects/main/University_of_Texas_at_Austin_seal.svg.png" alt="UT Austin Logo" width="100"/>
 
 </p>
