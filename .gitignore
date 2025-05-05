@@ -3,6 +3,11 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# Ignore Vim swap files
+*.swp
+*.swo
+*.swx
+
 # C extensions
 *.so
 

@@ -1,21 +1,40 @@
 
-/* iPortfolio-inspired Portfolio Style */
+/* iPortfolio-inspired Portfolio Style with Larger Fonts */
 
 body {
   font-family: 'Poppins', sans-serif;
+  font-size: 20px;
   margin: 0;
   padding: 0;
   background-color: #f5f8fd;
   color: #343a40;
-  line-height: 1.6;
+  line-height: 1.7;
   padding-left: 220px;
 }
 
-h1, h2 {
+h1 {
+  font-size: 36px;
   color: #0563bb;
   margin-bottom: 10px;
   border-bottom: 2px solid #eaecef;
   padding-bottom: 5px;
+}
+
+h2 {
+  font-size: 30px;
+  color: #0563bb;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #eaecef;
+  padding-bottom: 5px;
+}
+
+h3 {
+  font-size: 26px;
+}
+
+h4 {
+  font-size: 22px;
+  color: #888;
 }
 
 a {
@@ -30,9 +49,9 @@ a:hover {
 
 ul {
   padding-left: 20px;
+  font-size: 20px;
 }
 
-/* Vertical Navigation Bar */
 nav {
   position: fixed;
   top: 0;
@@ -49,7 +68,7 @@ nav {
 }
 
 nav strong {
-  font-size: 20px;
+  font-size: 24px;
   margin-bottom: 30px;
   display: block;
   color: #ffffff;
@@ -58,45 +77,25 @@ nav strong {
 nav a {
   color: #ffffff;
   margin: 10px 0;
+  font-size: 20px;
   font-weight: 600;
   display: flex;
   align-items: center;
   gap: 8px;
 }
 
-nav a[href*="about"]::before {
-  content: "📖";
-}
-
-nav a[href*="projects"]::before {
-  content: "📈";
-}
-
-nav a[href*="skills"]::before {
-  content: "🔧";
-}
-
-nav a[href*="home"]::before {
-  content: "🏠";
-}
-
-nav a[href*="resume"]::before {
-  content: "📄";
-}
-
-nav a[href*="education"]::before {
-  content: "🎓";
-}
-
-nav a[href*="contact"]::before {
-  content: "📬";
-}
+nav a[href*="about"]::before { content: "📖"; }
+nav a[href*="projects"]::before { content: "📈"; }
+nav a[href*="skills"]::before { content: "🔧"; }
+nav a[href*="home"]::before { content: "🏠"; }
+nav a[href*="resume"]::before { content: "📄"; }
+nav a[href*="education"]::before { content: "🎓"; }
+nav a[href*="contact"]::before { content: "📬"; }
 
 nav a:hover {
   text-decoration: underline;
 }
 
-/* Container and Section Styling */
 section {
   max-width: 1000px;
   margin: 0 auto 40px auto;
@@ -106,7 +105,6 @@ section {
   border-radius: 8px;
 }
 
-/* Table Styling */
 table {
   border-collapse: collapse;
   width: 100%;
@@ -116,19 +114,20 @@ table {
   margin-top: 20px;
   border-radius: 6px;
   overflow: hidden;
+  font-size: 18px;
 }
 
 th {
   background-color: #f8f9fa;
   color: #212529;
-  padding: 12px 16px;
+  padding: 16px 20px;
   text-align: left;
   font-weight: 600;
   border-bottom: 1px solid #dee2e6;
 }
 
 td {
-  padding: 12px 16px;
+  padding: 16px 20px;
   border-top: 1px solid #dee2e6;
   vertical-align: top;
 }
@@ -137,7 +136,6 @@ tr:nth-child(even) td {
   background-color: #f2f6fc;
 }
 
-/* Academic Section Styling */
 .academic-section {
   margin-top: 40px;
 }
@@ -172,30 +170,48 @@ tr:nth-child(even) td {
   margin-top: 20px;
 }
 
-/* Responsive Layout */
+/* Responsive font scaling for mobile */
 @media screen and (max-width: 768px) {
   body {
+    font-size: 16px;
     padding-left: 0;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  h4 {
+    font-size: 18px;
   }
 
   nav {
     position: relative;
     width: 100%;
-    height: auto;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     padding: 20px 10px;
   }
 
-  nav a {
-    margin: 5px 10px;
-  }
-
   nav strong {
+    font-size: 20px;
     width: 100%;
     text-align: center;
     margin-bottom: 10px;
+  }
+
+  nav a {
+    font-size: 16px;
+    margin: 5px 10px;
   }
 
   section {
@@ -232,4 +248,41 @@ tr:nth-child(even) td {
     background-color: transparent;
     border-bottom: none;
   }
+}
+
+
+/* Responsive Navigation Enhancements */
+.hamburger {
+  display: none;
+  cursor: pointer;
+  font-size: 26px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  nav a {
+    display: none;
+    width: 100%;
+    padding: 10px 0;
+  }
+
+  nav.open a {
+    display: flex;
+  }
+}
+
+/* Consistent Section Spacing */
+section {
+  margin: 40px auto;
+  padding: 40px 24px;
 }
