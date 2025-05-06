@@ -3,32 +3,116 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Responsive Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Michele Berg Portfolio</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-  <div class="hamburger" onclick="document.querySelector('nav').classList.toggle('open')">☰</div>
+<div class="hamburger" onclick="document.querySelector('nav').classList.toggle('open')">☰</div>
+<nav>
+  <strong>Michele Berg</strong>
+  <a href="#home">Home</a>
+  <a href="#about">About</a>
+  <a href="#projects">Projects</a>
+  <a href="#skills">Skills</a>
+  <a href="#education">Education</a>
+  <a href="#contact">Contact</a>
+</nav>
+	
+  <section id="home">
+    <h1>Data Science Portfolio</h1>
+    <p>Welcome! This portfolio showcases end-to-end data science projects focused on real-world applications.</p>
+  </section>
 
-  <nav>
-    <strong>Michele Berg</strong>
-    <a href="#home">Home</a>
-    <a href="#about">About</a>
-    <a href="#projects">Projects</a>
-    <a href="#skills">Skills</a>
-    <a href="#education">Education</a>
-    <a href="#resume">Resume</a>
-    <a href="#contact">Contact</a>
-  </nav>
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I'm Michele Berg, a data scientist and software development manager passionate about turning data into actionable insights. I have decades of software development and management experience using Agile methodologies, and a passion for improving my skills and the skills of those around me.</p>
+  </section>
 
-  <section id="home"><h2>Home</h2><p>Welcome to my portfolio site!</p></section>
-  <section id="about"><h2>About</h2><p>Some details about me.</p></section>
-  <section id="projects"><h2>Projects</h2><p>Project showcase.</p></section>
-  <section id="skills"><h2>Skills</h2><p>Python, Data Science, Machine Learning</p></section>
-  <section id="education"><h2>Education</h2><p>University credentials here.</p></section>
-  <section id="resume"><h2>Resume</h2><p>Link or summary of resume.</p></section>
-  <section id="contact"><h2>Contact</h2><p>Email: your.email@example.com</p></section>
+  
+<section id="projects">
+  <h2>📈 Projects</h2>
+  <table>
+    <tr>
+      <th>Project</th>
+      <th>Description</th>
+      <th>View</th>
+    </tr>
+    <tr>
+      <td><strong>FoodHub</strong></td>
+      <td>EDA and prediction for a food delivery platform</td>
+      <td><a href="https://htmlpreview.github.io/?https://github.com/michele-berg/Data-Science-Projects/blob/main/FoodHubProject/Foodhub_Full_Code_Berg.html" target="_blank">View Project</a></td>
+    </tr>
+    <tr>
+      <td><strong>E-News Express</strong></td>
+      <td>Subscriber prediction using ML classification</td>
+      <td><a href="https://htmlpreview.github.io/?https://github.com/michele-berg/Data-Science-Projects/blob/main/ENewsProject/ENews_Express_Learner_Notebook_Full_Code.html" target="_blank">View Project</a></td>
+    </tr>
+    <tr>
+      <td><strong>ReCell</strong></td>
+      <td>Resale pricing prediction using Linear Regression</td>
+      <td><a href="https://htmlpreview.github.io/?https://github.com/michele-berg/Data-Science-Projects/blob/main/ReCellProject/SLF_Project_LearnerNotebook_FullCode.html" target="_blank">View Project</a></td>
+    </tr>
+    <tr>
+      <td><strong>Inn Hotels</strong></td>
+      <td>Booking cancellation prediction using Logistic Regression and Decision Trees</td>
+      <td><a href="https://htmlpreview.github.io/?https://github.com/michele-berg/Data-Science-Projects/blob/main/InnHotelsProject/Project_SLC_DSBA_INNHotels_FullCode.html" target="_blank">View Project</a></td>
+    </tr>
+  </table>
+</section>
+
+
+  
+<section id="skills">
+  <h2>🔧 Skills & Tools</h2>
+  <ul class="skills-list">
+    <li>Python, pandas, numpy, scikit-learn</li>
+    <li>Matplotlib, seaborn, Plotly</li>
+    <li>EDA, Feature Engineering, Model Tuning</li>
+    <li>Git, GitHub, Jupyter Notebooks</li>
+    <li>Agile, Cloud Platforms, API Integration</li>
+    <li>Engineering Management, Mentorship, Coaching</li>
+  </ul>
+</section>
+
+ 
+<section class="academic-section" id="education">
+  <h2>🎓 Education</h2>
+  <div class="academic-content">
+    <div class="academic-logo">
+      <img src="University_of_Texas_at_Austin_seal.svg.png" alt="UT Austin Logo" class="logo-img" />
+    </div>
+    <div class="academic-text">
+      <p>
+        <strong><a href="https://www.mccombs.utexas.edu/execed/for-individuals/certificates/great-learning/#DSBA">
+        Post-Graduate Certificate - Data Science and Business Analytics</a></strong><br/>
+        University of Texas at Austin – McCombs School of Business, 2025
+      </p>
+    </div>
+  </div>
+
+  <div class="academic-content">
+    <div class="academic-logo">
+      <img src="MUstacked.png" alt="University of Missouri Logo" class="logo-img" />
+    </div>
+    <div class="academic-text">
+      <p>
+        <strong>Bachelor of Arts in Biology and English</strong><br>
+        University of Missouri – Columbia, 1996
+      </p>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+    <h2>📬 Contact</h2>
+    <ul>
+      <li><a href="https://docs.google.com/document/d/1KK1BOI72lMiqE9U1WUGSS4v8l61S9T_vj2tJYcnTN-I">Resume</a></li>	    
+      <li><a href="https://www.linkedin.com/in/micheleberg/">LinkedIn</a></li>
+      <li><a href="mailto:michele.berg.austin@gmail.com">Email</a></li>
+    </ul>
+  </section>
 
 </body>
 </html>
